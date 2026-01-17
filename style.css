@@ -117,3 +117,18 @@ body {
   background: #cd201f;
   color: #ffffff;
 }
+
+.wrapper a {
+  color: inherit;          /* inherit icon color */
+  text-decoration: none;  /* remove underline */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Prevent visited link color */
+.wrapper a:visited {
+  color: inherit;
+}
